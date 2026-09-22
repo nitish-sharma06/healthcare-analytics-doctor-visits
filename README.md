@@ -1,6 +1,10 @@
 # Healthcare Analytics: Understanding Doctor Visit Patterns
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://healthcare-analytics-doctor-visits-geauvqwfkjj58bqqzezbqz.streamlit.app/)
+
 Exploratory data analysis of a patient-level healthcare dataset, examining how demographic, economic, and health-related factors relate to the number of doctor visits.
+
+**🔗 Live App:** https://healthcare-analytics-doctor-visits-geauvqwfkjj58bqqzezbqz.streamlit.app/
 
 ## Overview
 
@@ -13,6 +17,8 @@ This project explores the **Doctor Visits** dataset to understand what drives pa
 | `1776250375-P2-Healthcare_Analytics_for_Doctor_Visits.csv` | Raw dataset — 5,190 patient records with 12 variables (visits, gender, age, income, illness score, insurance status, chronic condition flags, etc.) |
 | `Healthcare_Analytics_for_Doctor_Visits_Completed.ipynb` | Jupyter Notebook with the full analysis: data cleaning checks, distributions, correlations, and visualizations |
 | `Healthcare_Analytics_for_Doctor_Visits_Presentation_1.pptx` | Slide deck summarizing the methodology and key findings |
+| `app.py` | Streamlit app — interactive version of the analysis, deployed live above |
+| `requirements.txt` | Python dependencies needed to run `app.py` |
 
 ## Dataset
 
@@ -71,3 +77,7 @@ The dataset is clean — no missing values and no duplicate rows.
 - Python (pandas, numpy, matplotlib, seaborn)
 - Jupyter Notebook
 - Microsoft PowerPoint (for the summary presentation)
+
+## Author
+
+Nitish Sharma
